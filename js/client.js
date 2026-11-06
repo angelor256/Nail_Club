@@ -136,6 +136,7 @@ export function mountClient(root) {
         <a id="f-maps" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">${icon('pin', 14)} Google Maps</a>
       </div>
       <a class="team-link" href="#admin">Acceso equipo</a>
+      <p class="credit">Creado por <a href="https://angelor256.github.io/buildbeetech/#inicio" target="_blank" rel="noopener">Buildbee</a></p>
     </div>
   </footer>
 
