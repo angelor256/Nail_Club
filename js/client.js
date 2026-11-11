@@ -154,6 +154,10 @@ export function mountClient(root) {
   refreshClient();
   setupInstall();
   setupReveal();
+  const wa = document.getElementById('wa');
+  const onScroll = () => wa.classList.toggle('show', scrollY > 520);
+  addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 
   root.addEventListener('click', onClick);
   return store.on(refreshClient);
